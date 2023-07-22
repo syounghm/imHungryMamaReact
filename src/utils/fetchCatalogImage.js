@@ -6,7 +6,7 @@ import BCNThaiGlutinousRice from "../assets/BCNThaiGlutinousRice.png";
 import CTFTapiocaPearls from "../assets/CTFTapiocaPearls.png";
 import CTFTapiocaStarch from "../assets/CTFTapiocaStarch.png";
 import EBQDongGuanRiceVermicelli from "../assets/EBQDongGuanRiceVermicelli.png";
-import EBQRiceVermicelli from "../assets/EBQDongGuanRiceVermicelli.png";
+import EBQRiceVermicelli from "../assets/EBQRiceVermicelli.png";
 import EBQSpringRollSkin from "../assets/EBQSpringRollSkin.png";
 import EBQTapiocaStarch from "../assets/EBQTapiocaStarch.png";
 import EBQVegetarianNoodles from "../assets/EBQVegetarianNoodles.png";

@@ -1,4 +1,4 @@
-const sauces = [
+export const Sauces = [
   [
     "Sauces",
     [
@@ -11,3 +11,5 @@ const sauces = [
     ],
   ],
 ];
+
+export default Sauces;

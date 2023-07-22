@@ -11,9 +11,9 @@ export const RiceNoodles = [
       "NguyenGiaRiceNoodlesFamPack",
     ],
   ],
-  ["RicePaper", ["EBQSpringRollSkin"]],
+  ["Rice Paper", ["EBQSpringRollSkin"]],
   [
-    "InstantNoodles",
+    "Instant Noodles",
     ["HaoHaoHotSourShrimpCup", "HaoHaoSateOnionCup", "HaoHaoVegetarianCup"],
   ],
 ];
