@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#mama {
+  height: 80px;
+  margin-left: -20px;
+  margin-top: 10px;
+}

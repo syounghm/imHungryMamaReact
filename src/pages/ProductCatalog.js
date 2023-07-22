@@ -4,18 +4,27 @@ import fetchCatalogImage from "../utils/fetchCatalogImage.js";
 import RiceNoodles from "../data/RiceNoodles.js";
 import Sauces from "../data/Sauces";
 import { CatalogContainer } from "./style.js";
+import TapiocaProducts from "../data/TapiocaProducts.js";
+import Candies from "../data/Candies.js";
 
 const ProductCatalog = (props) => {
   const { type } = props;
   const [productType, setProductType] = useState();
-  const getData = { 1: RiceNoodles, 2: Sauces };
+  const getData = {
+    1: RiceNoodles,
+    2: Sauces,
+    // 3: SSB,
+    4: TapiocaProducts,
+    // 5: TeasCoffees,
+    6: Candies,
+  };
   useEffect(() => {
     setProductType();
   }, [type]);
 
   return (
     <CatalogContainer>
-      <p>Hello {`${type}`}</p>
+      {/* <p>Hello {`${type}`}</p> */}
       {getData[type]?.map((subCatalog) => {
         return (
           <Row>
@@ -25,7 +34,7 @@ const ProductCatalog = (props) => {
             {subCatalog[1].map((symbol) => {
               return (
                 <Col span={6}>
-                  <Image src={fetchCatalogImage(symbol)} />
+                  <Image src={fetchCatalogImage(symbol)} preview={false} />
                 </Col>
               );
             })}

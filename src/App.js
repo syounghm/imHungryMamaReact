@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import "./App.css";
 import { Layout, Menu, theme } from "antd";
 import ProductCatalog from "./pages/ProductCatalog";
+import { MenuBarContainer } from "./style";
+import HungryMamaLogo from "./assets/logos/hungrymamalogo.png";
+import Icon from "@ant-design/icons";
 
 const { Header, Content, Footer } = Layout;
-function getItem(label, key) {
+function getItem(label, key, icon) {
   return {
     label,
     key,
@@ -27,35 +30,47 @@ function App() {
         style={{
           display: "flex",
           alignItems: "center",
-          backgroundColor: "#cc462b",
+          backgroundColor: "white",
+          height: "75px",
         }}
       >
-        <div className="demo-logo" />
-        <Menu
-          onClick={(item, key) => setType(item.key)}
-          className="menuBar"
-          style={{ backgroundColor: "#cc462b" }}
-          mode="horizontal"
-          // defaultSelectedKeys={["2"]}
-          items={items}
-        />
+        <MenuBarContainer>
+          <div className="demo-logo">
+            <Icon component={() => <img id="mama" src={HungryMamaLogo} />} />
+          </div>
+          <Menu
+            onClick={(item, key) => setType(item.key)}
+            className="menuBar"
+            style={{
+              backgroundColor: "white",
+              height: "70px",
+              width: "100%",
+              marginTop: "15px",
+            }}
+            mode="horizontal"
+            // defaultSelectedKeys={["2"]}
+            items={items}
+          />{" "}
+        </MenuBarContainer>
       </Header>
       <Content
         style={{
+          backgroundColor: "white",
           padding: "0 50px",
         }}
       >
         <div className="site-layout-content" style={{}}>
-          Content
+          {/* Content */}
         </div>
         <ProductCatalog type={type} />
       </Content>
       <Footer
         style={{
+          backgroundColor: "white",
           textAlign: "center",
         }}
       >
-        Ant Design ©2023 Created by Ant UED
+        {/* Ant Design ©2023 Created by Ant UED */}
       </Footer>
     </Layout>
   );
