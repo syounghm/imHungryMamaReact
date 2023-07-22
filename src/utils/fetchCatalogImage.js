@@ -26,7 +26,6 @@ import ThreeCrabFishSauceL from "../assets/ThreeCrabFishSauceL.png";
 import ThreeCrabFishSauceS from "../assets/ThreeCrabFishSauceS.png";
 
 const fetchCatalogImage = (product) => {
-  const [catalogImage, setCatalogImage] = useState("");
   const listProductImage = {
     BCNCoconutCandy,
     BCNGingerCoconutCandy,
