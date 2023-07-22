@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import BCNCoconutCandy from "../assets/BCNCoconutCandy.png";
 import BCNGingerCoconutCandy from "../assets/BCNGingerCoconutCandy.png";
 import BCNGuavaCoconutCandy from "../assets/BCNGuavaCoconutCandy.png";

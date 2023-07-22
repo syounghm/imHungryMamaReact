@@ -1,4 +1,4 @@
-const RiceNoodles = [
+export const RiceNoodles = [
   ["Rice", ["BCNThaiGlutinousRice"]],
   [
     "Noodles",
