@@ -1,3 +1,17 @@
-// export const TeasCoffees = [["Teas & Coffees", [""]]];
+export const TeasCoffees = [
+  [
+    "Teas",
+    [
+      "EBQBitterMelonTea",
+      "EBQDandelionTea",
+      "EBQHibiscusTea",
+      "EBQHoneysuckleTea",
+      "EBQNeemTea",
+      "EBQPapayaTea",
+      "EBQTumericTea",
+    ],
+  ],
+  ["Coffees", ["NesCafeBlackIcedTea", "NesCafeMilkyIcedTea"]],
+];
 
-// export default TeasCoffees;
+export default TeasCoffees;

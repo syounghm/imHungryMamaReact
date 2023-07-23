@@ -6,6 +6,8 @@ import Sauces from "../data/Sauces";
 import { PageContainer } from "./style.js";
 import TapiocaProducts from "../data/TapiocaProducts.js";
 import Candies from "../data/Candies.js";
+import Seasonings from "../data/Seasonings.js";
+import TeasCoffees from "../data/TeasCoffees.js";
 
 const ProductCatalog = (props) => {
   const { type } = props;
@@ -13,9 +15,9 @@ const ProductCatalog = (props) => {
   const getData = {
     1: RiceNoodles,
     2: Sauces,
-    // 3: SSB,
+    3: Seasonings,
     4: TapiocaProducts,
-    // 5: TeasCoffees,
+    5: TeasCoffees,
     6: Candies,
   };
   useEffect(() => {

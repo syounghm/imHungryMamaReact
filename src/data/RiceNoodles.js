@@ -1,5 +1,5 @@
 export const RiceNoodles = [
-  ["Rice", ["BCNThaiGlutinousRice"]],
+  ["Rice", ["BCNThaiGlutinousRice", "BCNRedCargoRice"]],
   [
     "Noodles",
     [
@@ -11,7 +11,7 @@ export const RiceNoodles = [
       "NguyenGiaRiceNoodlesFamPack",
     ],
   ],
-  ["Rice Paper", ["EBQSpringRollSkin"]],
+  ["Rice Paper", ["EBQSpringRollSkin", "EBQSpringRollSkin2"]],
   [
     "Instant Noodles",
     ["HaoHaoHotSourShrimpCup", "HaoHaoSateOnionCup", "HaoHaoVegetarianCup"],
