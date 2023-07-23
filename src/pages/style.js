@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CatalogContainer = styled.div`
+export const PageContainer = styled.div`
   h1 {
     font-family: "BBBouquet-Regular";
     color: #cc462b;
@@ -17,4 +17,10 @@ export const CatalogContainer = styled.div`
     height: 400px;
     object-fit: contain;
   }
+`;
+
+export const AboutUsContainer = styled.div`
+  font-size: larger;
+  width: 550px;
+  margin: auto;
 `;

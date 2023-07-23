@@ -3,7 +3,7 @@ import { Row, Col, Image } from "antd";
 import fetchCatalogImage from "../utils/fetchCatalogImage.js";
 import RiceNoodles from "../data/RiceNoodles.js";
 import Sauces from "../data/Sauces";
-import { CatalogContainer } from "./style.js";
+import { PageContainer } from "./style.js";
 import TapiocaProducts from "../data/TapiocaProducts.js";
 import Candies from "../data/Candies.js";
 
@@ -23,7 +23,7 @@ const ProductCatalog = (props) => {
   }, [type]);
 
   return (
-    <CatalogContainer>
+    <PageContainer>
       {/* <p>Hello {`${type}`}</p> */}
       {getData[type]?.map((subCatalog) => {
         return (
@@ -41,7 +41,7 @@ const ProductCatalog = (props) => {
           </Row>
         );
       })}
-    </CatalogContainer>
+    </PageContainer>
   );
 };
 export default ProductCatalog;

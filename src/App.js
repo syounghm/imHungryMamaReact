@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import "./App.css";
 import { Layout, Menu, theme } from "antd";
 import ProductCatalog from "./pages/ProductCatalog";
-import { MenuBarContainer } from "./style";
+import { MenuBarContainer, RedirectContainer } from "./style";
 import HungryMamaLogo from "./assets/logos/hungrymamalogo.png";
 import Icon from "@ant-design/icons";
+import TikTok from "./assets/logos/tiktok.png";
+import Instagram from "./assets/logos/instagram.png";
+import Amazon from "./assets/logos/amazon.png";
+import AboutUs from "./pages/AboutUs";
 
 const { Header, Content, Footer } = Layout;
-function getItem(label, key, icon) {
+function getItem(label, key) {
   return {
     label,
     key,
@@ -21,9 +25,23 @@ const items = [
   getItem("Teas & Coffees", "5"),
   getItem("Candies", "6"),
 ];
+const catalog = {
+  label: "Product Catalog",
+  children: items,
+  key: "sub1",
+};
+const home = {
+  label: "Home",
+  key: "home",
+};
+const aboutUs = {
+  label: "About Us",
+  key: "about",
+};
 
 function App() {
-  const [type, setType] = useState("");
+  const [type, setType] = useState("home");
+
   return (
     <Layout className="layout">
       <Header
@@ -35,7 +53,7 @@ function App() {
         }}
       >
         <MenuBarContainer>
-          <div className="demo-logo">
+          <div className="main-logo">
             <Icon component={() => <img id="mama" src={HungryMamaLogo} />} />
           </div>
           <Menu
@@ -48,9 +66,22 @@ function App() {
               marginTop: "15px",
             }}
             mode="horizontal"
-            // defaultSelectedKeys={["2"]}
-            items={items}
+            defaultSelectedKeys="home"
+            items={[home, catalog, aboutUs]}
           />{" "}
+          <RedirectContainer>
+            <Icon component={() => <img id="amazon" src={Amazon} />} />
+            <a href="https://www.tiktok.com/@imhungrymama">
+              <Icon
+                component={() => <img className="link-btn" src={TikTok} />}
+              />
+            </a>
+            <a href="https://www.instagram.com/imahungrymama/">
+              <Icon
+                component={() => <img className="link-btn" src={Instagram} />}
+              />
+            </a>
+          </RedirectContainer>
         </MenuBarContainer>
       </Header>
       <Content
@@ -62,7 +93,11 @@ function App() {
         <div className="site-layout-content" style={{}}>
           {/* Content */}
         </div>
-        <ProductCatalog type={type} />
+        {type === "home" ? null : type === "about" ? (
+          <AboutUs />
+        ) : (
+          <ProductCatalog type={type} />
+        )}
       </Content>
       <Footer
         style={{
