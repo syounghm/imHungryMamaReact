@@ -30,10 +30,10 @@ const catalog = {
   children: items,
   key: "sub1",
 };
-const home = {
-  label: "Home",
-  key: "home",
-};
+// const home = {
+//   label: "Home",
+//   key: "home",
+// };
 const aboutUs = {
   label: "About Us",
   key: "about",
@@ -67,7 +67,7 @@ function App() {
             }}
             mode="horizontal"
             defaultSelectedKeys="home"
-            items={[home, catalog, aboutUs]}
+            items={[catalog, aboutUs]}
           />{" "}
           <RedirectContainer>
             <Icon component={() => <img id="amazon" src={Amazon} />} />

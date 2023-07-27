@@ -8,6 +8,7 @@ export const PageContainer = styled.div`
     font-size: 60px;
     padding-bottom: 5px;
     text-decoration: underline;
+    margin-top: auto;
     /* margin-bottom: -35px; */
   }
 
@@ -20,7 +21,9 @@ export const PageContainer = styled.div`
 `;
 
 export const AboutUsContainer = styled.div`
+  font-family: "BBBouquet-Regular";
   font-size: larger;
-  width: 550px;
+  width: 700px;
   margin: auto;
+  color: #252f3d;
 `;
