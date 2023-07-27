@@ -14,11 +14,7 @@ export const RiceNoodles = [
   { name: "Rice Paper", symbols: ["EBQSpringRollSkin", "EBQSpringRollSkin2"] },
   {
     name: "Instant Noodles",
-    symbols: [
-      "HaoHaoHotSourShrimpCup",
-      "HaoHaoSateOnionCup",
-      "HaoHaoVegetarianCup",
-    ],
+    symbols: ["ACHaoHaoShrimp", "ACHaoHaoOnion", "ACHaoHaoVeg"],
   },
 ];
 export default RiceNoodles;
