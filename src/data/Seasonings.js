@@ -4,12 +4,12 @@ export const Seasonings = [
   {
     name: "Broth Mixes",
     symbols: [
-      "ChangBeefBrothS",
       "ChangBeefBrothL",
-      "ChangChickenBrothS",
+      "ChangBeefBrothS",
       "ChangChickenBrothL",
-      "ChangVegetableBrothS",
+      "ChangChickenBrothS",
       "ChangVegetableBrothL",
+      "ChangVegetableBrothS",
     ],
   },
 ];
