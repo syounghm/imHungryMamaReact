@@ -1,8 +1,8 @@
 export const RiceNoodles = [
-  ["Rice", ["BCNThaiGlutinousRice", "BCNRedCargoRice"]],
-  [
-    "Noodles",
-    [
+  { name: "Rice", symbols: ["BCNThaiGlutinousRice", "BCNRedCargoRice"] },
+  {
+    name: "Noodles",
+    symbols: [
       "EBQDongGuanRiceVermicelli",
       "EBQRiceVermicelli",
       "EBQVegetarianNoodles",
@@ -10,11 +10,15 @@ export const RiceNoodles = [
       "NguyenGiaRiceNoodles",
       "NguyenGiaRiceNoodlesFamPack",
     ],
-  ],
-  ["Rice Paper", ["EBQSpringRollSkin", "EBQSpringRollSkin2"]],
-  [
-    "Instant Noodles",
-    ["HaoHaoHotSourShrimpCup", "HaoHaoSateOnionCup", "HaoHaoVegetarianCup"],
-  ],
+  },
+  { name: "Rice Paper", symbols: ["EBQSpringRollSkin", "EBQSpringRollSkin2"] },
+  {
+    name: "Instant Noodles",
+    symbols: [
+      "HaoHaoHotSourShrimpCup",
+      "HaoHaoSateOnionCup",
+      "HaoHaoVegetarianCup",
+    ],
+  },
 ];
 export default RiceNoodles;

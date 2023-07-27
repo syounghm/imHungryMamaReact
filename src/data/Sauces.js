@@ -1,7 +1,7 @@
 export const Sauces = [
-  [
-    "Sauces",
-    [
+  {
+    name: "Sauces",
+    symbols: [
       "FiveCrabsFishSauce",
       "MegaChefFishSauce",
       "MegaChefOysterSauce",
@@ -9,7 +9,7 @@ export const Sauces = [
       "ThreeCrabFishSauceL",
       "ThreeCrabFishSauceS",
     ],
-  ],
+  },
 ];
 
 export default Sauces;

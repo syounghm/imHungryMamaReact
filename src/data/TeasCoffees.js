@@ -1,7 +1,7 @@
 export const TeasCoffees = [
-  [
-    "Teas",
-    [
+  {
+    name: "Teas",
+    symbols: [
       "EBQBitterMelonTea",
       "EBQDandelionTea",
       "EBQHibiscusTea",
@@ -10,7 +10,7 @@ export const TeasCoffees = [
       "EBQPapayaTea",
       "EBQTumericTea",
     ],
-  ],
+  },
   ["Coffees", ["NesCafeBlackIcedTea", "NesCafeMilkyIcedTea"]],
 ];
 

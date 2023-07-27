@@ -1,8 +1,8 @@
 export const TapiocaProducts = [
-  [
-    "Tapioca Products",
-    ["CTFTapiocaStarch", "CTFTapiocaPearls", "EBQTapiocaStarch"],
-  ],
+  {
+    name: "Tapioca Products",
+    symbols: ["CTFTapiocaStarch", "CTFTapiocaPearls", "EBQTapiocaStarch"],
+  },
 ];
 
 export default TapiocaProducts;

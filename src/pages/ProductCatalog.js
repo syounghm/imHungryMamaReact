@@ -29,11 +29,11 @@ const ProductCatalog = (props) => {
       {/* <p>Hello {`${type}`}</p> */}
       {getData[type]?.map((subCatalog) => {
         return (
-          <Row>
+          <Row gutter={{ xs: 16, sm: 32, md: 48, lg: 64 }}>
             <Col span={24}>
-              <h1>{`${subCatalog[0]}`}</h1>
+              <h1>{`${subCatalog.name}`}</h1>
             </Col>
-            {subCatalog[1].map((symbol) => {
+            {subCatalog.symbols.map((symbol) => {
               return (
                 <Col span={6}>
                   <Image src={fetchCatalogImage(symbol)} preview={false} />
