@@ -1,0 +1,14 @@
+ML's agenda
+1. Help Steven
+2. router
+3. catalog page and icon
+
+4. contact info drawer
+
+Steven's agenda: 
+1. Fix all images/implement all images
+2. Fix data (all data in tables)
+3. image text
+
+4. table of content
+5. get ML icon images
