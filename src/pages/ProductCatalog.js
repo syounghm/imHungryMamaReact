@@ -11,7 +11,6 @@ import TeasCoffees from "../data/TeasCoffees.js";
 
 const ProductCatalog = (props) => {
   const { type } = props;
-  const [productType, setProductType] = useState();
   const getData = {
     1: RiceNoodles,
     2: Sauces,
@@ -27,6 +26,7 @@ const ProductCatalog = (props) => {
   return (
     <PageContainer>
       {/* <p>Hello {`${type}`}</p> */}
+      Steven is ass
       {getData[type]?.map((subCatalog) => {
         return (
           <Row gutter={{ xs: 16, sm: 32, md: 48, lg: 64 }}>
