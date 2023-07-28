@@ -33,7 +33,7 @@ export const RiceNoodles = [
       "ACPhoBeef",
       "ACPhoChicken",
       "ACShrimpCup",
-      "ACHaoHaoVeg",
+      "ACVegCup",
     ],
   },
 ];

@@ -93,7 +93,7 @@ const fetchCatalogImage = (product) => {
     ACPhoBeef,
     ACPhoChicken,
     ACShrimpCup,
-    ACHaoHaoVeg,
+    ACVegCup,
     BCNCoconutCandy,
     BCNGingerCoconutCandy,
     BCNGuavaCoconutCandy,
