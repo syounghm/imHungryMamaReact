@@ -3,11 +3,11 @@ import "./App.css";
 import { Layout, Menu, theme } from "antd";
 import ProductCatalog from "./pages/ProductCatalog";
 import { MenuBarContainer, RedirectContainer } from "./style";
-import HungryMamaLogo from "./assets/logos/hungrymamalogo.png";
+import HungryMamaLogo from "./assets/Logos/hungrymamalogo.png";
 import Icon from "@ant-design/icons";
-import TikTok from "./assets/logos/tiktok.png";
-import Instagram from "./assets/logos/instagram.png";
-import Amazon from "./assets/logos/amazon.png";
+import TikTok from "./assets/Logos/tiktok.png";
+import Instagram from "./assets/Logos/instagram.png";
+import Amazon from "./assets/Logos/amazon.png";
 import AboutUs from "./pages/AboutUs";
 
 const { Header, Content, Footer } = Layout;

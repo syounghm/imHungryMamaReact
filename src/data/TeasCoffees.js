@@ -11,7 +11,10 @@ export const TeasCoffees = [
       "EBQTumericTea",
     ],
   },
-  ["Coffees", ["NesCafeBlackIcedTea", "NesCafeMilkyIcedTea"]],
+  {
+    name: "Coffees",
+    symbols: ["NescafeBlackIcedCoffee", "NescafeMilkyIcedCoffee"],
+  },
 ];
 
 export default TeasCoffees;

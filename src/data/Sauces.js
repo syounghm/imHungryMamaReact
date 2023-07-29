@@ -6,8 +6,8 @@ export const Sauces = [
       "MegaChefFishSauce",
       "MegaChefOysterSauce",
       "SquidFishSauce",
-      "ThreeCrabFishSauceL",
-      "ThreeCrabFishSauceS",
+      "ThreeCrabsFishSauceL",
+      "ThreeCrabsFishSauceS",
     ],
   },
 ];
