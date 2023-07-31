@@ -1,5 +1,5 @@
 export const Brands = {
-  1: getBrand("Vina AceCook", "Vietnam"),
+  1: getBrand("Vina Acecook", "Vietnam"),
   2: getBrand("New B.C.N.", "Vietnam"),
   3: getBrand("Chang", "Thailand"),
   4: getBrand("CTF", "Thailand"),
