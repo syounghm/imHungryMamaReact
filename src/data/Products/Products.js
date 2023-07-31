@@ -426,6 +426,150 @@ export const Products = [
     false,
     false
   ),
+  getProduct(
+    "Asian Boy Vegetarian Noodles",
+    Brands[5],
+    Subcatalogs[2],
+    "EBQVegetarianNoodles",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Elephant World Dried Cinnamon Sticks",
+    Brands[6],
+    Subcatalogs[7],
+    "EWDriedCinnamonSticks",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Elephant World Mixed Spice",
+    Brands[6],
+    Subcatalogs[7],
+    "EWMixedSpices",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Five Crabs (Nam Con Cua) Fish Sauce",
+    Brands[7],
+    Subcatalogs[5],
+    "FiveCrabsFishSauce",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Megachef Fish Sauce",
+    Brands[7],
+    Subcatalogs[5],
+    "MegaChefFishSauce",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Megachef Oyster Sauce",
+    Brands[7],
+    Subcatalogs[5],
+    "MegaChefOysterSauce",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Nescafe Cafe Viet Black Iced Coffee",
+    Brands[9],
+    Subcatalogs[11],
+    "NescafeBlackIcedCoffee",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Nescafe Cafe Viet Milky Iced Coffee (Cafe Sữa Đá)",
+    Brands[9],
+    Subcatalogs[11],
+    "NescafeMilkyIcedCoffee",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Nguyen Gia Bun Bo Hue",
+    Brands[10],
+    Subcatalogs[2],
+    "NguyenGiaBunBoHueNoodles",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Nguyen Gia 9999 Fish Sauce",
+    Brands[10],
+    Subcatalogs[5],
+    "NguyenGiaFishSauce",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Nguyen Gia Rice Noodles",
+    Brands[10],
+    Subcatalogs[2],
+    "NguyenGiaRedRiceNoodles",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Nguyen Gia Rice Noodles Family Pack",
+    Brands[10],
+    Subcatalogs[2],
+    "NguyenGiaRiceNoodlesFamPack",
+    null,
+    true,
+    false
+  ),
+  getProduct(
+    "Nguyen Gia Natural Sea Salt",
+    Brands[10],
+    Subcatalogs[6],
+    "NguyenGiaSeaSalt",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Squid Fish Sauce",
+    Brands[11],
+    Subcatalogs[5],
+    "SquidFishSauce",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Three Crab (Ba Con Cua) Fish Sauce (L)",
+    Brands[12],
+    Subcatalogs[5],
+    "ThreeCrabsFishSauceL",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Three Crab (Ba Con Cua) Fish Sauce (S)",
+    Brands[12],
+    Subcatalogs[5],
+    "ThreeCrabsFishSauceS",
+    null,
+    false,
+    false
+  ),
 ];
 
 const getProduct = (
