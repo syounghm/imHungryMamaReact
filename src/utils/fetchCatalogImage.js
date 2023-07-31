@@ -37,7 +37,7 @@ import CTFTapiocaStarch from "../assets/Products/CTFTapiocaStarch.jpg";
 
 import EBQBitterMelonTea from "../assets/Products/EBQBitterMelonTea.jpg";
 import EBQDandelionTea from "../assets/Products/EBQDandelionTea.jpg";
-import EBQDongGuanRiceVermicelli from "../assets/Products/EBQDongGuanRiceVermicelli.jpg";
+import EBQDongguanRiceVermicelli from "../assets/Products/EBQDongGuanRiceVermicelli.jpg";
 import EBQHibiscusTea from "../assets/Products/EBQHibiscusTea.jpg";
 import EBQHoneysuckleTea from "../assets/Products/EBQHoneysuckleTea.jpg";
 import EBQNaturalSeaSalt from "../assets/Products/EBQNaturalSeaSalt.jpg";
@@ -110,7 +110,7 @@ const fetchCatalogImage = (product) => {
     CTFTapiocaStarch,
     EBQBitterMelonTea,
     EBQDandelionTea,
-    EBQDongGuanRiceVermicelli,
+    EBQDongguanRiceVermicelli,
     EBQHibiscusTea,
     EBQHoneysuckleTea,
     EBQNaturalSeaSalt,

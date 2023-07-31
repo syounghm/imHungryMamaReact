@@ -3,7 +3,7 @@ export const RiceNoodles = [
   {
     name: "Noodles",
     symbols: [
-      "EBQDongGuanRiceVermicelli",
+      "EBQDongguanRiceVermicelli",
       "EBQRiceVermicelli",
       "EBQVegetarianNoodles",
       "NguyenGiaBunBoHueNoodles",

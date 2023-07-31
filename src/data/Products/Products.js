@@ -183,6 +183,249 @@ export const Products = [
     false,
     false
   ),
+  getProduct(
+    "New B.C.N. Coconut Candy",
+    Brands[2],
+    Subcatalogs[12],
+    "BCNCoconutCandy",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "New B.C.N. Ginger Coconut Candy",
+    Brands[2],
+    Subcatalogs[12],
+    "BCNGingerCoconutCandy",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "New B.C.N. Guava Coconut Candy",
+    Brands[2],
+    Subcatalogs[12],
+    "BCNGuavaCoconutCandy",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "New B.C.N. Mango Soft Candy",
+    Brands[2],
+    Subcatalogs[12],
+    "BCNMangoSoftCandy",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "New B.C.N. Red Cargo Rice",
+    Brands[2],
+    Subcatalogs[1],
+    "BCNRedCargoRice",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "New B.C.N. Thai Glutinous Rice",
+    Brands[2],
+    Subcatalogs[1],
+    "BCNThaiGlutinousRice",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Chang Beef Flavor Broth Mix (L)",
+    Brands[3],
+    Subcatalogs[8],
+    "ChangBeefBrothL",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Chang Beef Flavor Broth Mix (S)",
+    Brands[3],
+    Subcatalogs[8],
+    "ChangBeefBrothS",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Chang Chicken Flavor Broth Mix (L)",
+    Brands[3],
+    Subcatalogs[8],
+    "ChangChickenBrothL",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Chang Chicken Flavor Broth Mix (S)",
+    Brands[3],
+    Subcatalogs[8],
+    "ChangChickenBrothS",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Chang Vegetable Flavor Broth Mix (L)",
+    Brands[3],
+    Subcatalogs[8],
+    "ChangVegetableBrothL",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Chang Vegetable Flavor Broth Mix (S)",
+    Brands[3],
+    Subcatalogs[8],
+    "ChangVegetableBrothS",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "C.T.F. Brand Tapioca Pearls",
+    Brands[4],
+    Subcatalogs[9],
+    "CTFTapiocaPearls",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "C.T.F. Brand Tapioca Starch",
+    Brands[4],
+    Subcatalogs[9],
+    "CTFTapiocaStarch",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Bitter Melon Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQBitterMelonTea",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Dandelion Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQDandelionTea",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Dongguan Rice Vermicelli",
+    Brands[5],
+    Subcatalogs[2],
+    "EBQDongguanRiceVermicelli",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Hibiscus Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQHibiscusTea",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Honeysuckle Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQHoneysuckleTea",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Natural Sea Salt",
+    Brands[5],
+    Subcatalogs[6],
+    "EBQNaturalSeaSalt",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Neem Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQNeemTea",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Papaya Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQPapayaTea",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Rice Vermicelli (Banh Hoi)",
+    Brands[5],
+    Subcatalogs[2],
+    "EBQRiceVermicelli",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Spring Roll Skin (Banh Trang Deo)",
+    Brands[5],
+    Subcatalogs[3],
+    "EBQSpringRollSkin",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Spring Roll Skin (Banh Trang Cha Gio)",
+    Brands[5],
+    Subcatalogs[3],
+    "EBQSpringRollSkin2",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Tapioca Starch",
+    Brands[5],
+    Subcatalogs[9],
+    "EBQTapiocaStarch",
+    null,
+    false,
+    false
+  ),
+  getProduct(
+    "Asian Boy Tumeric Tea",
+    Brands[5],
+    Subcatalogs[10],
+    "EBQTumericTea",
+    null,
+    false,
+    false
+  ),
 ];
 
 const getProduct = (
