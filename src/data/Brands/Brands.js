@@ -1,3 +1,7 @@
+const getBrand = (name, country) => {
+  return { name, country };
+};
+
 export const Brands = {
   1: getBrand("Vina Acecook", "Vietnam"),
   2: getBrand("New B.C.N.", "Vietnam"),
@@ -11,9 +15,6 @@ export const Brands = {
   10: getBrand("Nguyen Gia", "Vietnam"),
   11: getBrand("Squid", "Thailand"),
   12: getBrand("Three Crabs", "Hong Kong"),
-};
-const getBrand = (name, country) => {
-  return { name, country };
 };
 
 export default Brands;

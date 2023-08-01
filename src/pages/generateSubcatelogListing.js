@@ -1,5 +1,5 @@
 // returns catalog name and symbols
-const generateSubCatalog = (catalog, symbol = []) => {
+const generateSubcatalogListing = () => {
   const newSubCatalog = {};
   newSubCatalog[catalog] = [...symbol];
   return newSubCatalog;

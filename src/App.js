@@ -3,11 +3,11 @@ import "./App.css";
 import { Layout, Menu, theme } from "antd";
 import ProductCatalog from "./pages/ProductCatalog";
 import { MenuBarContainer, RedirectContainer } from "./style";
-import HungryMamaLogo from "./assets/Logos/hungrymamalogo.png";
+import HungryMamaLogo from "./assets/Logos/HungryMamaLogo.png";
 import Icon from "@ant-design/icons";
-import TikTok from "./assets/Logos/tiktok.png";
-import Instagram from "./assets/Logos/instagram.png";
-import Amazon from "./assets/Logos/amazon.png";
+import TikTok from "./assets/Logos/Tiktok.png";
+import Instagram from "./assets/Logos/Instagram.png";
+import Amazon from "./assets/Logos/Amazon.png";
 import AboutUs from "./pages/AboutUs";
 
 const { Header, Content, Footer } = Layout;
@@ -30,10 +30,6 @@ const catalog = {
   children: items,
   key: "sub1",
 };
-// const home = {
-//   label: "Home",
-//   key: "home",
-// };
 const aboutUs = {
   label: "About Us",
   key: "about",

@@ -1,4 +1,4 @@
-import TBPhoto from "../assets/AboutUs/tbphoto.png";
+import TBPhoto from "../assets/AboutUs/TBPhoto.png";
 import { AboutUsContainer, PageContainer } from "./style.js";
 
 const AboutUs = (props) => {
