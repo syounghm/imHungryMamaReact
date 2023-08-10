@@ -7,8 +7,9 @@ import HungryMamaLogo from "./assets/Logos/HungryMamaLogo.png";
 import Icon from "@ant-design/icons";
 import TikTok from "./assets/Logos/Tiktok.png";
 import Instagram from "./assets/Logos/Instagram.png";
-import Amazon from "./assets/Logos/Amazon.png";
+import GlobalFonts from "./fonts/fonts";
 import AboutUs from "./pages/AboutUs";
+import VinasenHatNem from "./assets/Home/VinasenHatNem.JPG";
 
 const { Header, Content, Footer } = Layout;
 function getItem(label, key) {
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <Layout className="layout">
+      <GlobalFonts />
       <Header
         style={{
           display: "flex",
@@ -66,13 +68,12 @@ function App() {
             items={[catalog, aboutUs]}
           />{" "}
           <RedirectContainer>
-            <Icon component={() => <img id="amazon" src={Amazon} />} />
-            <a href="https://www.tiktok.com/@imhungrymama">
+            <a href="https://www.tiktok.com/@imhungrymama" target="_blank">
               <Icon
                 component={() => <img className="link-btn" src={TikTok} />}
               />
             </a>
-            <a href="https://www.instagram.com/imahungrymama/">
+            <a href="https://www.instagram.com/imahungrymama/" target="_blank">
               <Icon
                 component={() => <img className="link-btn" src={Instagram} />}
               />
@@ -89,7 +90,9 @@ function App() {
         <div className="site-layout-content" style={{}}>
           {/* Content */}
         </div>
-        {type === "home" ? null : type === "about" ? (
+        {type === "home" ? (
+          <img src={VinasenHatNem} />
+        ) : type === "about" ? (
           <AboutUs />
         ) : (
           <ProductCatalog type={type} />

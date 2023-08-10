@@ -7,7 +7,7 @@ const getProduct = (
   subcatalog,
   symbol,
   price,
-  amazonStatus,
+  amazonLink,
   weeeStatus
 ) => {
   return {
@@ -16,7 +16,7 @@ const getProduct = (
     subcatalog,
     symbol,
     price,
-    amazonStatus,
+    amazonLink,
     weeeStatus,
   };
 };
@@ -90,15 +90,6 @@ export const Products = [
     Brands[1],
     Subcatalogs[3],
     "ACHaoHaoVeg",
-    null,
-    false,
-    false
-  ),
-  getProduct(
-    "Acecook Hu Tieu Beef Ball Flavor",
-    Brands[1],
-    Subcatalogs[3],
-    "ACHuTieuBeef",
     null,
     false,
     false
@@ -550,7 +541,7 @@ export const Products = [
     Subcatalogs[1],
     "NguyenGiaRiceNoodlesFamPack",
     null,
-    true,
+    "https://www.amazon.com/gp/product/B0CCBMMWQG",
     false
   ),
   getProduct(

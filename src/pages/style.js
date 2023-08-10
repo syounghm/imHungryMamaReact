@@ -12,11 +12,21 @@ export const PageContainer = styled.div`
     /* margin-bottom: -35px; */
   }
 
-  #item {
-    /* border: 1px solid gray; */
-    width: 340px;
-    height: 400px;
+  .ant-image-img {
+    width: 22vw;
+    height: 50vh;
     object-fit: contain;
+  }
+  .ant-card-body {
+    width: 22vw;
+  }
+  .ant-card-cover img {
+    border-radius: 0px;
+  }
+  .ant-card-meta-title {
+    white-space: normal;
+    text-overflow: revert;
+    text-align: center;
   }
 `;
 
@@ -26,4 +36,10 @@ export const AboutUsContainer = styled.div`
   width: 700px;
   margin: auto;
   color: #252f3d;
+`;
+
+export const CardContainer = styled.div`
+  .card-meta {
+    white-space: normal;
+  }
 `;

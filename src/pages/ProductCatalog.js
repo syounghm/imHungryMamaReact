@@ -5,6 +5,7 @@ import { PageContainer } from "./style.js";
 import Catalogs from "../data/Catalogs/Catalogs.js";
 import Subcatalogs from "../data/Subcatalogs/Subcatalogs.js";
 import Products from "../data/Products/Products.js";
+import Amazon from "../assets/Logos/Amazon.png";
 
 const ProductCatalog = (props) => {
   const { type } = props;
@@ -17,12 +18,15 @@ const ProductCatalog = (props) => {
 
     return subcatalogList.map((subcat) => {
       return (
-        <Row gutter={{ xs: 16, sm: 32, md: 48, lg: 64 }}>
+        <Row
+          gutter={[{ xs: 8, sm: 16, md: 32, lg: 48 }, 32]}
+          // gutter={[16, 16]}
+        >
           <Col span={24}>
             <h1>{`${subcat.name}`}</h1>
           </Col>
           {Products.filter(({ subcatalog }) => subcatalog === subcat).map(
-            ({ symbol, name, price }) => {
+            ({ symbol, name, price, amazonLink }) => {
               return (
                 <Col span={6} style={{ height: "100%" }}>
                   {/* <Image src={fetchCatalogImage(symbol)} preview={false} />
@@ -30,17 +34,38 @@ const ProductCatalog = (props) => {
                   <Card
                     style={{ border: "0px" }}
                     cover={
-                      <div style={{ height: "100%" }}>
-                        <Image
-                          src={fetchCatalogImage(symbol)}
-                          preview={false}
-                        />{" "}
+                      <div style={{ height: "100%", position: "inline" }}>
+                        <a
+                          href={amazonLink ? amazonLink : null}
+                          target="_blank"
+                          style={{ cursor: amazonLink ? "pointer" : "default" }}
+                        >
+                          <Image
+                            src={fetchCatalogImage(symbol)}
+                            preview={false}
+                            style={{ position: "relative" }}
+                          />
+                          {amazonLink ? (
+                            <img
+                              src={Amazon}
+                              style={{
+                                height: "15px",
+                                position: "absolute",
+                                zIndex: "1",
+                                right: "0px",
+                                top: "0px",
+                              }}
+                            />
+                          ) : null}
+                        </a>
                       </div>
                     }
+                    className="item"
                   >
                     <Card.Meta
                       title={name}
                       description={`${price ? "$" + price : ""}`}
+                      className="card-meta"
                     />
                   </Card>
                 </Col>
