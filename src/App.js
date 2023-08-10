@@ -7,7 +7,6 @@ import HungryMamaLogo from "./assets/Logos/HungryMamaLogo.png";
 import Icon from "@ant-design/icons";
 import TikTok from "./assets/Logos/Tiktok.png";
 import Instagram from "./assets/Logos/Instagram.png";
-import GlobalFonts from "./fonts/fonts";
 import AboutUs from "./pages/AboutUs";
 import VinasenHatNem from "./assets/Home/VinasenHatNem.JPG";
 
@@ -26,6 +25,10 @@ const items = [
   getItem("Teas & Coffees", "5"),
   getItem("Candies", "6"),
 ];
+const home = {
+  label: "Home",
+  key: "home",
+};
 const catalog = {
   label: "Product Catalog",
   children: items,
@@ -41,7 +44,6 @@ function App() {
 
   return (
     <Layout className="layout">
-      <GlobalFonts />
       <Header
         style={{
           display: "flex",
@@ -65,7 +67,7 @@ function App() {
             }}
             mode="horizontal"
             defaultSelectedKeys="home"
-            items={[catalog, aboutUs]}
+            items={[home, catalog, aboutUs]}
           />{" "}
           <RedirectContainer>
             <a href="https://www.tiktok.com/@imhungrymama" target="_blank">
@@ -91,7 +93,15 @@ function App() {
           {/* Content */}
         </div>
         {type === "home" ? (
-          <img src={VinasenHatNem} />
+          <img
+            src={VinasenHatNem}
+            style={{
+              display: "block",
+              height: "80vh",
+              width: "auto",
+              margin: "auto",
+            }}
+          />
         ) : type === "about" ? (
           <AboutUs />
         ) : (
